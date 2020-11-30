@@ -1,0 +1,9 @@
+#!/bin/bash
+val=$(defaults read com.apple.finder CreateDesktop)
+echo "$val"
+if [ "$val" = "true" ]; then
+    defaults write com.apple.finder CreateDesktop false;
+else defaults write com.apple.finder CreateDesktop true;
+fi
+killall Finder;
+exit 1
