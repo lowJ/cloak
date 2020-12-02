@@ -6,3 +6,6 @@
 1. Drag and drop cloak script onto the left side of the dock for easy access.
 
  Working in OSX Mojave.
+ 
+ ![Alt Text](https://media2.giphy.com/media/SMSrvo7n5g8GflsxVk/giphy.gif)
+ 
